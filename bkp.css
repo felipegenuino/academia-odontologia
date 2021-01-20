@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,700&display=swap');
+
+
+
+:root{
+    --gray-light: #c9c9c9;
+    --bs-primary: red;
+    --bs-secondary: #6c757d;
+}
+
+
+body {
+    background-color: #202020;
+}
+
+
+/* Header */
+.brand{ display: block;}
+header{}
+header nav{}
+header .brand{}
+/* end Header */
+
+/* Pages */
+
+
+.ui-block{  padding: 100px 0;}
+
+
+/* HELPERS */
+.italic{ font-style: italic;}
+.uppercase{ text-transform: uppercase;}
+
+
+.ui-title{ padding: 50px 0; text-align: center;}
+.ui-title-main{
+    font-size: 42px;
+    font-weight: 100;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: 'Raleway', sans-serif; 
+}
+.ui-title-main--italic{
+    text-transform: initial;
+    font-size: 48px; 
+    font-family: 'Raleway', sans-serif; 
+    font-style: italic;
+}
+.ui-title-sub{ 
+    color: #53bcd6;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase; 
+    font-family: 'Raleway', sans-serif; 
+}
+ 
+
+
+
+
+.list-group {  
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+ 

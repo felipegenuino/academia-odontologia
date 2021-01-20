@@ -1,0 +1,3 @@
+# NÃO UTILIZE O ARQUIVO STYLE.CSS, FAVOR UTILIZAR O /SCSS
+$ yarn install
+$ yarn dev
