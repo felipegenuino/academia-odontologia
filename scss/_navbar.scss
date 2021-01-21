@@ -1,0 +1,13 @@
+
+/* Navbar*/
+
+.navbar-expand-md .navbar-nav{ margin-left: auto;}
+
+.navbar-dark .navbar-nav .nav-link{
+    font-weight: 700; text-transform: uppercase; color: rgba(255, 255, 255, 1); 
+    &:hover{
+        color: rgba(255, 255, 255, 0.55)
+    }
+}
+
+body{background-color: yellow;}
