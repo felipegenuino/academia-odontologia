@@ -21,6 +21,19 @@ body {
 }
 
 
+.list-invist{
+    list-style: none;
+   li {
+        background-color: #1b1b1b;
+        border-left:3px solid #e71d7c ;
+        color: #fff;;
+        &__text{ font-size: 24px;
+            .number{  font-size: 36px;}
+        } 
+       }
+    }
+
+
 
 
 // body {

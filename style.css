@@ -6992,3 +6992,14 @@ body {
 
 body {
   background-color: #202020; }
+
+.list-invist {
+  list-style: none; }
+  .list-invist li {
+    background-color: #1b1b1b;
+    border-left: 3px solid #e71d7c;
+    color: #fff; }
+    .list-invist li__text {
+      font-size: 24px; }
+      .list-invist li__text .number {
+        font-size: 36px; }
