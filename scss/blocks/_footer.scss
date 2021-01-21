@@ -3,11 +3,13 @@ footer{
     }
 footer .nav{  }
 footer .nav li{}
+footer h2{ font-size: 18px;}
 footer .nav li a{
      text-decoration: none;
      opacity: 1;
      transition: 0.2s all linear;
-     font-size: 19px;
+     font-size: 18px;
+     font-family: 'Raleway', sans-serif;
      &:hover{
          text-decoration: underline;
          opacity: 0.7;
