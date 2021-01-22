@@ -7435,6 +7435,8 @@ body {
 
 .ui-accordion {
   font-family: 'Raleway', sans-serif; }
+  .ui-accordion--testimonial {
+    color: #fff; }
   .ui-accordion .accordion-item {
     background-color: #131313;
     margin-bottom: 10px;
@@ -7458,6 +7460,19 @@ body {
     font-size: 18px;
     line-height: 1.6;
     padding: 1rem 2rem 2rem 2rem; }
+
+.ui-carousel {
+  font-family: 'Raleway', sans-serif; }
+  .ui-carousel .lead {
+    font-size: 20px;
+    font-weight: 300; }
+
+.ui-carousel .carousel-item .row {
+  max-width: 960px;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  margin: auto; }
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
@@ -7506,6 +7521,11 @@ body {
   border-style: solid;
   border-width: 0 0 172px 172px;
   border-color: transparent transparent var(--bs-primary) transparent; }
+
+.carousel-indicators li {
+  border-radius: 50%;
+  width: 10px;
+  height: 10px; }
 
 /* blocks */
 .hero {
