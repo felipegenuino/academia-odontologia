@@ -9,6 +9,7 @@
 
 
 @import "elements/_ui-titles";
+@import "elements/_ui-accordion";
 
 
 /* blocks */
@@ -20,9 +21,14 @@
 
 
 body {
-    background-color: #202020;
+    background-color: rgba(26,26,26,1);
 }
 
+* {
+    -webkit-font-smoothing: none;
+    -webkit-font-smoothing: subpixel-antialiased;
+    -webkit-font-smoothing: antialiased;
+}
 
 .list-invist{
     list-style: none;
