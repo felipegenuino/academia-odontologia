@@ -2,7 +2,6 @@
 
 @import "_config";
 
-@import "_helpers";
 @import "_navbar";
 @import "_buttons";
 
@@ -12,8 +11,9 @@
 @import "elements/_ui-titles";
 
 
-/* pages */
+/* blocks */
 @import "blocks/hero"; 
+@import "blocks/banner-info"; 
 @import "blocks/footer"; 
 
 
