@@ -7468,11 +7468,7 @@ body {
     font-weight: 300; }
 
 .ui-carousel .carousel-item .row {
-  max-width: 960px;
-  align-items: center;
-  justify-content: center;
-  align-content: center;
-  margin: auto; }
+  max-width: 960px; }
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
@@ -7608,7 +7604,7 @@ body {
       border-color: #fff; }
 
 footer {
-  background-color: #1b1b1b; }
+  background-color: #131313; }
 
 footer h2, footer .h2 {
   font-size: 18px; }
