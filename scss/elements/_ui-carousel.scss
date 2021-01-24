@@ -38,11 +38,14 @@
  
 
 
-.picture-person {
-    max-width: 324px;
+.picture-person { 
+    width: 292px;
+    height: 292px;
+    background-position:center center;
+    background-size: cover;
     // border: 1px solid red;
     position: relative;
-    padding: 15px;
+    margin: 15px;
 }
 
 .picture-person:after {
@@ -50,7 +53,7 @@
     // border: 1px solid red; 
     width: 47px;
     height:38px;
-    top: 0px;
+    top: -15px;
     color: #fff;
     left: 30px;
     background-image: url("./assets/images/quote.svg");
@@ -64,15 +67,14 @@
     width: 172px;
     height: 172px;
     position: absolute;
-    right: 0px;
+    right: -15px;
     z-index: -1; 
-bottom:0;
-
+    bottom:-15px;
     width: 0;
-height: 0;
-border-style: solid;
-border-width: 0 0 172px 172px;
-border-color: transparent transparent var(--bs-primary) transparent;
+    height: 0;
+    border-style: solid;
+    border-width: 0 0 172px 172px;
+    border-color: transparent transparent var(--bs-primary) transparent;
 }
 
 
