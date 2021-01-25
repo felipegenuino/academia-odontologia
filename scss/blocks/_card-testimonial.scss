@@ -9,7 +9,7 @@
 }
     &__media{
         position: relative;
-        &.is-video{
+        &.has-video{
             cursor: pointer;
             &:after{
                 display: inline-block;

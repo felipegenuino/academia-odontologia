@@ -25,3 +25,26 @@ window.addEventListener('scroll', function () {
 });
 
 // end vanilla scrol
+
+
+
+/*
+ Modal with video
+*/
+
+//https://www.youtube.com/embed/EFVcKWFajHI?autoplay=1
+//https://player.vimeo.com/video/462832179?autoplay=1&title=0&byline=0&portrait=0
+var testimonialModal = document.getElementById('testimonialModal')
+testimonialModal.addEventListener('show.bs.modal', function (event) {
+    var button = event.relatedTarget
+    var videoURL = button.getAttribute('data-bs-videoURL')
+    var modalIframeInput = testimonialModal.querySelector('.modal-body iframe')
+    modalIframeInput.setAttribute('src', videoURL)
+})
+
+testimonialModal.addEventListener('hidden.bs.modal', function (event) {
+    var modalIframeInput = testimonialModal.querySelector('.modal-body iframe')
+    modalIframeInput.setAttribute('src', '')
+})
+
+/* end Modal with video*/
