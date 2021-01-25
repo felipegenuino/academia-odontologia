@@ -7727,6 +7727,82 @@ footer .nav li a {
       margin-bottom: 25px;
       display: block; }
 
+.card-testimonial {
+  color: #fff;
+  border-radius: 0;
+  background-color: transparent;
+  font-family: 'Raleway', sans-serif;
+  margin-bottom: 30px; }
+  .card-testimonial__modal {
+    background-color: #1a1a1a; }
+  .card-testimonial__media {
+    position: relative; }
+    .card-testimonial__media.is-video {
+      cursor: pointer; }
+      .card-testimonial__media.is-video:after {
+        display: inline-block;
+        font-style: normal;
+        font-variant: normal;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        content: "\f04b";
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        font-size: 50px;
+        margin-left: -25px;
+        margin-top: -25px; }
+    .card-testimonial__media img {
+      width: 100%;
+      max-width: 100%; }
+  .card-testimonial__name {
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    position: relative;
+    margin-top: 25px;
+    margin-bottom: 15px; }
+    .card-testimonial__name:after {
+      content: "";
+      width: 72px;
+      height: 2px;
+      position: absolute;
+      background: var(--bs-primary);
+      bottom: -11px;
+      left: 50%;
+      margin-left: -31px; }
+  .card-testimonial__position {
+    text-align: center; }
+  .card-testimonial > p {
+    font-weight: 300;
+    font-size: 16px; }
+  .card-testimonial .blockquote {
+    background-color: black;
+    color: #c7c7c7;
+    padding: 150px 60px 50px 60px;
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 0;
+    line-height: 1.8;
+    position: relative;
+    text-align: center; }
+    .card-testimonial .blockquote:after {
+      position: absolute;
+      width: 47px;
+      height: 38px;
+      top: 80px;
+      color: #fff;
+      left: 50%;
+      background-image: url(./assets/images/quote.svg);
+      background-repeat: no-repeat;
+      content: "";
+      z-index: 1;
+      margin-left: -22px; }
+    .card-testimonial .blockquote p {
+      margin-bottom: 0; }
+
 .ui-plan {
   font-family: 'Raleway', sans-serif;
   max-width: 570px; }
