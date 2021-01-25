@@ -1,0 +1,27 @@
+
+/* header*/
+header{
+    &.navbar-expand-md .navbar-nav{ margin-left: auto;}
+    &.navbar-dark .navbar-nav .nav-link{
+        font-weight: 600;
+        text-transform: uppercase;
+        color: white;
+        font-size: 14px;
+        font-family: 'Raleway', sans-serif;
+        margin-right: 35px;
+        &:hover{
+            color: rgba(255, 255, 255, 0.55)
+        }
+    }
+    .btn{
+        font-size: 14px;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 600; 
+        width: 160px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+
+
+ 

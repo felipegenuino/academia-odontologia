@@ -2,20 +2,20 @@
 
 @import "_config";
 
-@import "_navbar";
-@import "_buttons";
-
 
 
 
 @import "elements/_ui-titles";
 @import "elements/_ui-accordion";
 @import "elements/_ui-carousel";
+@import "elements/_buttons";
+
 
 
 /* blocks */
 @import "blocks/hero"; 
 @import "blocks/banner-info"; 
+@import "blocks/_header";
 @import "blocks/footer"; 
 
 
