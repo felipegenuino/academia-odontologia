@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,700&display=swap");
 /*!
  * Bootstrap v5.0.0-beta1 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
@@ -7726,6 +7726,27 @@ footer .nav li a {
     .card-course-content .time {
       margin-bottom: 25px;
       display: block; }
+
+.ui-plan {
+  font-family: 'Raleway', sans-serif;
+  max-width: 570px; }
+  .ui-plan__title {
+    font-size: 32px;
+    color: #201e22;
+    font-weight: 900;
+    margin-bottom: 30px; }
+  .ui-plan__price {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 200;
+    font-family: 'Open Sans', sans-serif; }
+    .ui-plan__price span {
+      font-size: 36px;
+      letter-spacing: -0.1rem; }
+  .ui-plan__list {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif; }
 
 body {
   background-color: #1a1a1a; }
