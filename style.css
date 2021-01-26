@@ -7856,3 +7856,7 @@ body {
       font-size: 24px; }
       .list-invist li__text .number {
         font-size: 36px; }
+
+.content-entry {
+  font-family: 'Open Sans';
+  font-size: 20px; }
