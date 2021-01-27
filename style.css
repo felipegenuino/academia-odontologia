@@ -7825,9 +7825,19 @@ footer .nav li a {
     font-weight: 600;
     font-family: 'Open Sans', sans-serif; }
 
+.entry-header {
+  padding: 3rem 3rem 1rem 3rem; }
+  .entry-header h1, .entry-header .h1 {
+    color: var(--bs-primary);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 48px; }
+
 .entry-content {
   font-family: 'Open Sans';
-  font-size: 20px; }
+  font-size: 20px;
+  padding: 1rem 3rem 3rem 3rem;
+  /* == WordPress WYSIWYG Editor Styles == */ }
   .entry-content h2, .entry-content .h2 {
     font-size: 28px;
     font-size: 1.75rem;
@@ -7840,6 +7850,75 @@ footer .nav li a {
     line-height: 1.2173913043;
     margin-top: 2.4347826087em;
     margin-bottom: 1.2173913043em; }
+  .entry-content img {
+    margin: 0 0 1.5em 0; }
+  .entry-content .alignleft, .entry-content img.alignleft {
+    margin-right: 1.5em;
+    display: inline;
+    float: left; }
+  .entry-content .alignright, .entry-content img.alignright {
+    margin-left: 1.5em;
+    display: inline;
+    float: right; }
+  .entry-content .aligncenter, .entry-content img.aligncenter {
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    clear: both; }
+  .entry-content .alignnone, .entry-content img.alignnone {
+    /* not sure about this one */ }
+  .entry-content .wp-caption {
+    margin-bottom: 1.5em;
+    text-align: center;
+    padding-top: 5px; }
+  .entry-content .wp-caption img {
+    border: 0 none;
+    padding: 0;
+    margin: 0; }
+  .entry-content .wp-caption p.wp-caption-text {
+    line-height: 1.5;
+    font-size: 10px;
+    margin: 0; }
+  .entry-content .wp-smiley {
+    margin: 0 !important;
+    max-height: 1em; }
+  .entry-content blockquote.left {
+    margin-right: 20px;
+    text-align: right;
+    margin-left: 0;
+    width: 33%;
+    float: left; }
+  .entry-content blockquote.right {
+    margin-left: 20px;
+    text-align: left;
+    margin-right: 0;
+    width: 33%;
+    float: right; }
+  .entry-content table {
+    --bs-table-bg: transparent;
+    --bs-table-striped-color: #212529;
+    --bs-table-striped-bg: rgba(0, 0, 0, 0.05);
+    --bs-table-active-color: #212529;
+    --bs-table-active-bg: rgba(0, 0, 0, 0.1);
+    --bs-table-hover-color: #212529;
+    --bs-table-hover-bg: rgba(0, 0, 0, 0.075);
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+    vertical-align: top;
+    border-color: #dee2e6; }
+    .entry-content table > :not(caption) > * > * {
+      padding: 0.5rem 0.5rem;
+      background-color: var(--bs-table-bg);
+      background-image: linear-gradient(var(--bs-table-accent-bg), var(--bs-table-accent-bg));
+      border-bottom-width: 1px; }
+  .entry-content .wp-caption .wp-caption-text {
+    color: #686868;
+    font-size: 13px;
+    font-size: 0.8125rem;
+    font-style: italic;
+    line-height: 1.6153846154;
+    padding-top: 0.5384615385em; }
 
 body {
   background-color: #1a1a1a; }
