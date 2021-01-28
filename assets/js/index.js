@@ -48,3 +48,8 @@ testimonialModal.addEventListener('hidden.bs.modal', function (event) {
 })
 
 /* end Modal with video*/
+
+
+
+var exampleEl = document.getElementById('return-page')
+var tooltip = new bootstrap.Tooltip(exampleEl, options)
