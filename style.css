@@ -381,6 +381,14 @@ progress {
     .display-1 {
       font-size: 4.25rem; } }
 
+.display-2 {
+  font-size: calc(1.425rem + 2.1vw);
+  font-weight: 300;
+  line-height: 1.2; }
+  @media (min-width: 1200px) {
+    .display-2 {
+      font-size: 3rem; } }
+
 .list-unstyled {
   padding-left: 0;
   list-style: none; }
@@ -7790,32 +7798,30 @@ footer .nav li a {
   .entry-header h1, .entry-header .h1 {
     color: var(--bs-primary);
     font-family: 'Raleway', sans-serif;
-    font-weight: 300;
-    font-size: 48px; }
+    font-weight: 300; }
   .entry-header__badge {
     padding: 0.5rem  1rem;
     font-weight: 600;
     font-family: 'Raleway', sans-serif;
     border-radius: 0;
-    font-size: 11px; }
+    font-size: 0.688rem; }
     .entry-header__badge.primary {
       background-color: #ca5290 !important; }
 
 .entry-content {
   font-family: 'Open Sans', sans-serif;
-  font-size: 20px;
+  font-size: 1.25rem;
   padding: 1rem 3rem 3rem 3rem;
   /* == WordPress WYSIWYG Editor Styles == */ }
   .entry-content h1, .entry-content .h1, .entry-content .h1, .entry-content h2, .entry-content .h2, .entry-content .h2, .entry-content h3, .entry-content .h3, .entry-content .h3, .entry-content h4, .entry-content .h4, .entry-content .h4, .entry-content h5, .entry-content .h5, .entry-content .h5, .entry-content h6, .entry-content .h6, .entry-content .h6 {
     font-family: 'Open Sans', sans-serif; }
   .entry-content h2, .entry-content .h2 {
-    font-size: 28px;
     font-size: 1.75rem;
     line-height: 1.25;
     margin-top: 2em;
     margin-bottom: 1em; }
   .entry-content h3, .entry-content .h3 {
-    font-size: 23px;
+    font-size: 1.438rem;
     font-size: 1.4375rem;
     line-height: 1.2173913043;
     margin-top: 2.4347826087em;
