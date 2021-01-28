@@ -12,6 +12,9 @@ header{
         &:hover{
             color: rgba(255, 255, 255, 0.55)
         }
+        &.active{
+            color: var(--bs-primary)
+        }
     }
     .btn{
         font-size: 14px;

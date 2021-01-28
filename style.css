@@ -7568,6 +7568,8 @@ header.navbar-dark .navbar-nav .nav-link {
   margin-right: 35px; }
   header.navbar-dark .navbar-nav .nav-link:hover {
     color: rgba(255, 255, 255, 0.55); }
+  header.navbar-dark .navbar-nav .nav-link.active {
+    color: var(--bs-primary); }
 
 header .btn {
   font-size: 14px;
