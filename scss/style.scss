@@ -23,10 +23,7 @@
 @import "blocks/_single";
 
 
-
-body {
-    background-color: rgba(26,26,26,1);
-}
+ 
 
 
 .videoWrapper  {
@@ -48,6 +45,13 @@ body {
     -webkit-font-smoothing: none;
     -webkit-font-smoothing: subpixel-antialiased;
     -webkit-font-smoothing: antialiased;
+}
+
+.ff-primary{  font-family: 'Raleway', sans-serif;}
+.ff-secondary{  font-family: 'Open Sans', sans-serif;}
+
+.fs-small{
+  font-size: 11px;
 }
 
 .list-invist{

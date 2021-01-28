@@ -7,6 +7,15 @@
         font-size: 48px;
     }
     padding: 3rem 3rem 1rem 3rem;
+
+    &__badge{
+         padding: 0.5rem  1rem ;
+        font-weight: 600;
+        font-family: 'Raleway', sans-serif;
+        border-radius: 0;
+        font-size: 11px;
+        &.primary{background-color: #ca5290 !important;}
+    }
 }
 .entry-content{
     font-family: 'Open Sans', sans-serif;
