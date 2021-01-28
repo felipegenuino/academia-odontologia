@@ -2835,9 +2835,9 @@ textarea.form-control-lg {
       border-color: transparent; }
   .nav-tabs .nav-link.active,
   .nav-tabs .nav-item.show .nav-link {
-    color: #495057;
-    background-color: #1a1a1a;
-    border-color: #dee2e6 #dee2e6 #1a1a1a; }
+    color: blue;
+    background-color: red;
+    border-color: yellow; }
   .nav-tabs .dropdown-menu {
     margin-top: -1px;
     border-top-left-radius: 0;

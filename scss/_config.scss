@@ -25,6 +25,11 @@ $display-font-sizes: (
   1: 4.25rem
 ) !default;
 
-@import "../node_modules/bootstrap/scss/bootstrap";
+$nav-tabs-link-active-color:        blue !default;
+  $nav-tabs-link-active-bg:           red!default;
+  $nav-tabs-link-active-border-color: yellow !default;
 
  
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+  
