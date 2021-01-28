@@ -9,11 +9,13 @@
     padding: 3rem 3rem 1rem 3rem;
 }
 .entry-content{
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
     font-size: 20px;
     padding: 1rem 3rem 3rem 3rem;
 
- 
+    h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6{
+        font-family: 'Open Sans', sans-serif;
+    }
     h2{
         font-size: 28px;
     font-size: 1.75rem;
@@ -27,16 +29,27 @@
         line-height: 1.2173913043;
         margin-top: 2.4347826087em;
         margin-bottom: 1.2173913043em;
+        font-weight: 600;
     }
 
 
     /* == WordPress WYSIWYG Editor Styles == */
 
-
- 
+p{    margin: 0 0 1.75em;}
+address {
+    font-style: italic;
+    margin: 0 0 1.75em;
+}
+ pre{
+    background: #000;
+    color: #fff;
+    padding: 2em;
+ }
 
 img {
-	margin: 0 0 1.5em 0;
+    margin: 0 0 1.5em 0;
+    max-width: 100%;
+    height: auto;
 	}
 .alignleft, img.alignleft {
 	margin-right: 1.5em;
@@ -60,12 +73,15 @@ img {
 .wp-caption {
 	margin-bottom: 1.5em;
 	text-align: center;
-	padding-top: 5px;
+    padding-top: 5px;
+    max-width: 100%;
 	}
 .wp-caption img {
 	border: 0 none;
 	padding: 0;
-	margin: 0;
+    margin: 0;
+    max-width: 100%;
+    height: auto;
 	}
 .wp-caption p.wp-caption-text {
 	line-height: 1.5;
@@ -75,7 +91,39 @@ img {
 .wp-smiley {
 	margin: 0 !important;
 	max-height: 1em;
-	}
+    }
+    
+ blockquote{
+    border: 0 solid #1a1a1a;
+    border-left-width: 4px;
+    color: #686868;
+    font-size: 19px;
+    font-size: 1.1875rem;
+    font-style: italic;
+    line-height: 1.4736842105;
+    margin: 0 0 1.4736842105em;
+    overflow: hidden;
+    padding: 0 0 0 1.263157895em;
+    cite, small {
+        color: #1a1a1a;
+        display: block;
+        font-size: 16px;
+        font-size: 1rem;
+        line-height: 1.75;
+        &:before {
+            content: "\2014\00a0";
+        }
+    }
+
+    em, i, cite {
+        font-style: normal;
+    }
+
+   
+ }   
+
+ 
+
 blockquote.left {
 	margin-right: 20px;
 	text-align: right;
