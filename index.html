@@ -23,40 +23,36 @@
 <body>
 
 
-  <header class="navbar fixed-top navbar-expand-md navbar-dark bd-navbar py-4">
-    <nav class="container-xxl flex-wrap flex-md-nowrap" aria-label="Main navigation">
+  <header class="navbar fixed-top navbar-expand-lg navbar-dark bd-navbar py-4">
+    <nav class="container-xxl flex-wrap flex-lg-nowrap" aria-label="Main navigation">
       <a class="navbar-brand p-0 me-2" href="/" aria-label="Bootstrap">
         <img src="./assets/images/brand.png" alt="Academia da Odontologia">
       </a>
 
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#bdNavbar"
         aria-controls="bdNavbar" aria-expanded="false" aria-label="Toggle navigation">
-        <svg class="bi" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-          <path fill-rule="evenodd"
-            d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z">
-          </path>
-        </svg>
+        <i class="fas fa-bars"></i>
       </button>
 
       <div class="collapse navbar-collapse" id="bdNavbar">
-        <ul class="navbar-nav flex-row flex-wrap bd-navbar-nav pt-2 py-md-0">
-          <li class="nav-item col-6 col-md-auto">
+        <ul class="navbar-nav flex-row flex-wrap bd-navbar-nav pt-2 py-lg-0 ms-auto">
+          <li class="nav-item col-6 col-lg-auto">
             <a class="nav-link p-2" href="#" target="_blank" rel="noopener">Quem somos</a>
           </li>
-          <li class="nav-item col-6 col-md-auto">
+          <li class="nav-item col-6 col-lg-auto">
             <a class="nav-link p-2" href="#" target="_blank" rel="noopener">Depoimentos</a>
           </li>
-          <li class="nav-item col-6 col-md-auto">
+          <li class="nav-item col-6 col-lg-auto">
             <a class="nav-link p-2" href="#" target="_blank" rel="noopener">Cursos</a>
           </li>
-          <li class="nav-item col-6 col-md-auto">
+          <li class="nav-item col-6 col-lg-auto">
             <a class="nav-link p-2" href="#" target="_blank" rel="noopener">Blog</a>
           </li>
         </ul>
 
-        <hr class="d-md-none text-white-50">
+        <hr class="d-lg-none text-white-50">
 
-        <a class="btn btn-primary d-lg-inline-block ml-auto my-2 my-md-0 ms-md-3 px-4" href="#">Acessar</a>
+        <a class="btn btn-primary d-lg-inline-block ml-auto my-2 my-lg-0 ms-lg-3 px-4" href="#">Acessar</a>
       </div>
     </nav>
   </header>
@@ -64,19 +60,15 @@
 
   <main id="main">
 
-
-
     <section class="hero" style="background-image: url(./assets/images/hero-bg.png);">
       <div class="overlay"></div>
       <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-        <source
-          src="https://academiadaodontologia.com.br/wp-content/uploads/2018/10/Mariane-Makinf-of-VERSÃO-1-MINUTO.mp4"
-          type="video/mp4">
+        <source src="./assets/videos/Mariane-Makinf-of-VERSAO-1-MINUTO.mp4" type="video/mp4">
       </video>
       <div class="container h-100">
         <div class="d-flex h-100 align-items-end">
           <div class="w-100 text-white">
-            <h1 class="display-5">Odontopediatras atualizados a qualquer hora e em qualquer lugar</h1>
+            <h1 class="display-1">Odontopediatras atualizados a qualquer hora e em qualquer lugar</h1>
             <a href="#" class="hero-button btn btn-primary btn-lg py-3 px-5 mt-4">Comece agora!</a>
           </div>
         </div>
@@ -89,495 +81,39 @@
       <div class="container py-5">
         <div class="row">
           <div class="col-sm">
-
             <div class="ui-title">
               <h2 class="ui-title-main ui-title-main--italic">Invista em conhecimento, invista em você</h2>
               <span class="ui-title-sub"> Conheça o nosso método de ensino</span>
             </div>
-
           </div>
         </div>
 
         <div class="row">
-          <div class="col-sm-4">
+          <div class="col-lg-4">
             <ul class="list-invist text-center p-0 m-0">
-              <li class="p-5 mb-2 fw-bold"><span class="fs-2">+22</span> <span class="fs-3">cursos</span></li>
-              <li class="p-5 mb-2 fw-bold"><span class="fs-2">14</span> <span class="fs-3">professores</span></li>
-              <li class="p-5 mb-2 fw-bold"><span class="fs-2">540</span> <span class="fs-3">horas/aula</span></li>
+              <li class="p-5 mb-2 fw-bold bg-dark mb-4"><span class="fs-2">+22</span> <span class="fs-3">cursos</span>
+              </li>
+              <li class="p-5 mb-2 fw-bold bg-dark mb-4"><span class="fs-2">14</span> <span
+                  class="fs-3">professores</span>
+              </li>
+              <li class="p-5 mb-2 fw-bold bg-dark"><span class="fs-2">540</span> <span class="fs-3">horas/aula</span>
+              </li>
             </ul>
           </div>
-          <div class="col-sm-8">
-            <div><img class="w-100" src="./assets/images/home-video.png" alt=""></div>
+          <div class="col-lg-8">
+            <div>
+              <div class="videoWrapper">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Do5HAPmcL2c" frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
+              </div>
+            </div>
           </div>
         </div>
       </div><!-- // container -->
     </section>
 
-
-
-
-
-    <section class="banner-info banner-info--center">
-      <div class="container">
-        <div class="row">
-          <div>
-            <h2>A comodidade do Ensino On-line aliada à interação <br>
-              com o professor possível no Ensino Presencial.</h2>
-            <a href="#" class="btn btn-lg btn-outline-light"> junte-se a nós</a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-
-
-
-    <section class="mt-5 py-5">
-      <div class="container">
-
-        <div class="row">
-          <div class="col-sm">
-            <div class="ui-title">
-              <h2 class="ui-title-main">Conheça os nossos cursos</h2>
-              <span class="ui-title-sub"> Últimos adicionados:</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-sm">
-            <ul class="list-inline text-center mb-4">
-              <li class="list-inline-item">
-                <a href="" class="btn  btn-lg btn-outline-light ms-2 border-gray-light"> Todos</a>
-              </li>
-              <li class="list-inline-item">
-                <a href="" class="btn  btn-lg btn-outline-light ms-2 border-gray-light"> Lançamentos</a>
-              </li>
-              <li class="list-inline-item">
-                <a href="" class="btn active  btn-lg btn-outline-light ms-2 border-gray-light"> Mais acessados</a>
-              </li>
-              <li class="list-inline-item">
-                <a href="" class="btn btn-lg btn-outline-light ms-2 border-gray-light"> Semi-presenciais</a>
-              </li>
-              <li class="list-inline-item">
-                <a href="" class="btn btn-lg btn-outline-light ms-2 border-gray-light"> Sedação
-                  <i class="fas fa-plus-circle"></i>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-
-
-        <div class="row row-cols-1 row-cols-md-4 g-4">
-          <div class="col">
-            <div class="card card-course  card-course_is-new"
-              style="background-image: url(./assets/images/background-course-1.jpg);">
-              <a class="card-course_all_height" href="#">
-                <div class="card-course-content">
-
-                  <img class="img-thumbnai" src="./assets/images/square-person.png" alt="Nome alternativo">
-                  <h3>Juliana Andriani</h3>
-                  <div class="line"></div>
-                  <p>Impacção do primeiro molar permanente</p>
-                  <span class="time">
-                    <i class="far fa-clock"></i>
-                    18h/aula
-                  </span>
-                </div>
-              </a>
-            </div> <!-- // card-curso -->
-          </div><!-- //col -->
-
-          <div class="col">
-            <div class=" card card-course" style="background-image: url(./assets/images/background-course-2.jpg);">
-              <a class="card-course_all_height" href="#">
-                <div class="card-course-content">
-                  <img class="img-thumbnai" src="./assets/images/square-person-2.png" alt="Nome alternativo">
-                  <h3>Jéssica Barussel</h3>
-                  <div class="line"></div>
-                  <p>Endodontia mecanizada em dentes decíduos</p>
-                  <span class="time">
-                    <i class="far fa-clock"></i>
-                    18h/aula
-                  </span>
-                </div>
-              </a>
-            </div> <!-- // card-curso -->
-          </div><!-- //col -->
-
-
-          <div class="col">
-            <div class="card card-course  card-course_is-new"
-              style="background-image: url(./assets/images/background-course-1.jpg);">
-              <a class="card-course_all_height" href="#">
-                <div class="card-course-content">
-
-                  <img class="img-thumbnai" src="./assets/images/square-person.png" alt="Nome alternativo">
-                  <h3>Juliana Andriani</h3>
-                  <div class="line"></div>
-                  <p>Impacção do primeiro molar permanente</p>
-                  <span class="time">
-                    <i class="far fa-clock"></i>
-                    18h/aula
-                  </span>
-                </div>
-              </a>
-            </div> <!-- // card-curso -->
-          </div><!-- //col -->
-
-          <div class="col">
-            <div class=" card card-course" style="background-image: url(./assets/images/background-course-2.jpg);">
-              <a class="card-course_all_height" href="#">
-                <div class="card-course-content">
-                  <img class="img-thumbnai" src="./assets/images/square-person-2.png" alt="Nome alternativo">
-                  <h3>Jéssica Barussel</h3>
-                  <div class="line"></div>
-                  <p>Endodontia mecanizada em dentes decíduos</p>
-                  <span class="time">
-                    <i class="far fa-clock"></i>
-                    18h/aula
-                  </span>
-                </div>
-              </a>
-            </div> <!-- // card-curso -->
-          </div><!-- //col -->
-        </div>
-
-
-        <div class="row row-cols-1 row-cols-md-3 g-3">
-
-          <div class="col">
-            <div class="card card-course  card-course_is-new"
-              style="background-image: url(./assets/images/background-course-1.jpg);">
-              <a class="card-course_all_height" href="#">
-                <div class="card-course-content">
-
-                  <img class="img-thumbnai" src="./assets/images/square-person.png" alt="Nome alternativo">
-                  <h3>Juliana Andriani</h3>
-                  <div class="line"></div>
-                  <p>Impacção do primeiro molar permanente</p>
-                  <span class="time">
-                    <i class="far fa-clock"></i>
-                    18h/aula
-                  </span>
-                </div>
-              </a>
-            </div> <!-- // card-curso -->
-          </div><!-- //col -->
-
-          <div class="col">
-            <div class=" card card-course" style="background-image: url(./assets/images/background-course-2.jpg);">
-              <a class="card-course_all_height" href="#">
-                <div class="card-course-content">
-                  <img class="img-thumbnai" src="./assets/images/square-person-2.png" alt="Nome alternativo">
-                  <h3>Jéssica Barussel</h3>
-                  <div class="line"></div>
-                  <p>Endodontia mecanizada em dentes decíduos</p>
-                  <span class="time">
-                    <i class="far fa-clock"></i>
-                    18h/aula
-                  </span>
-                </div>
-              </a>
-            </div> <!-- // card-curso -->
-          </div><!-- //col -->
-
-
-          <div class="col">
-            <div class="card card-course  card-course_is-new"
-              style="background-image: url(./assets/images/background-course-1.jpg);">
-              <a class="card-course_all_height" href="#">
-                <div class="card-course-content">
-
-                  <img class="img-thumbnai" src="./assets/images/square-person.png" alt="Nome alternativo">
-                  <h3>Juliana Andriani</h3>
-                  <div class="line"></div>
-                  <p>Impacção do primeiro molar permanente</p>
-                  <span class="time">
-                    <i class="far fa-clock"></i>
-                    18h/aula
-                  </span>
-                </div>
-              </a>
-            </div> <!-- // card-curso -->
-          </div><!-- //col -->
-
-        </div> <!-- //row  -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        <div class="row row-cols-1 row-cols-md-3 g-3">
-
-          <div class="col">
-            <div class="card card-post rounded-0 border-0 p-0 h-100">
-              <div class="card-header border-0 p-0">
-                <img class="img-thumbnail img-fluid  border-0 rounded-0 p-0 "
-                  src="./assets/images/post-de-blog-1-768x768.jpg" alt="Nome alternativo">
-              </div>
-              <div class="card-content p-4 border-0">
-                <span class="badge bg-primary mb-3 fs-small rounded-0 text-uppercase p-2 ff-primary">Sedação</span>
-                <h3><a href="#" class="stretched-link text-decoration-none">Tipos de sedação em odontologia</a></h3>
-              </div>
-              <div class="card-footer d-flex border-0 bg-white mt-auto p-4">
-                <div class="flex-grow-1">
-                  <ul class="list-inline mb-0">
-                    <li class="list-inline-item"><img src="assets/images/square-person.png"
-                        class="border-1 rounded-circle" width="55px" height="55px" alt="Author name">
-                    </li>
-                    <li class="list-inline-item fs-5">Juliana Andriani</li>
-                  </ul>
-                </div>
-                <div class="align-self-center">
-                  <span class="text-muted"> 15 jan, 2021</span>
-                </div>
-              </div>
-            </div> <!-- // card-curso -->
-          </div><!-- //col -->
-
-
-          <div class="col">
-            <div class="card card-post rounded-0 border-0 p-0 h-100">
-              <div class="card-header border-0 p-0">
-                <img class="img-thumbnail img-fluid  border-0 rounded-0 p-0 "
-                  src="./assets/images/post-de-blog-2-768x768.jpg" alt="Nome alternativo">
-              </div>
-              <div class="card-content p-4 border-0">
-                <span class="badge bg-primary mb-3 fs-small rounded-0 text-uppercase p-2 ff-primary">E-Books</span>
-                <h3><a href="#" class="stretched-link text-decoration-none">E-book Pré-natal odontológico: 10 cuidados
-                    essenciais para o atendimento em gestantes</a></h3>
-              </div>
-              <div class="card-footer d-flex border-0 bg-white mt-auto p-4">
-                <div class="flex-grow-1">
-                  <ul class="list-inline mb-0">
-                    <li class="list-inline-item"><img src="assets/images/square-person.png"
-                        class="border-1 rounded-circle" width="55px" height="55px" alt="Author name">
-                    </li>
-                    <li class="list-inline-item fs-5">Juliana Andriani</li>
-                  </ul>
-                </div>
-                <div class="align-self-center">
-                  <span class="text-muted"> 20 dez, 2021</span>
-                </div>
-              </div>
-            </div> <!-- // card-curso -->
-          </div><!-- //col -->
-
-
-
-
-          <div class="col">
-            <div class="card card-post rounded-0 border-0 p-0 h-100">
-              <div class="card-header border-0 p-0">
-                <img class="img-thumbnail img-fluid  border-0 rounded-0 p-0 "
-                  src="./assets/images/post-de-blog-3-768x768.jpg" alt="Nome alternativo">
-              </div>
-              <div class="card-content p-4 border-0">
-                <span class="badge bg-primary mb-3 fs-small rounded-0 text-uppercase p-2 ff-primary">E-Books</span>
-                <h3><a href="#" class="stretched-link text-decoration-none">Apneia Obstrutiva do Sono em crianças:
-                    Conduta terapêutica</a></h3>
-              </div>
-              <div class="card-footer d-flex border-0 bg-white mt-auto p-4">
-                <div class="flex-grow-1">
-                  <ul class="list-inline mb-0">
-                    <li class="list-inline-item"><img src="assets/images/square-person.png"
-                        class="border-1 rounded-circle" width="55px" height="55px" alt="Author name">
-                    </li>
-                    <li class="list-inline-item fs-5">Juliana Andriani</li>
-                  </ul>
-                </div>
-                <div class="align-self-center">
-                  <span class="text-muted"> 7 Jul, 2021</span>
-                </div>
-              </div>
-            </div> <!-- // card-curso -->
-          </div><!-- //col -->
-
-
-
-        </div> <!-- //row  -->
-
-
-
-
-
-        <div class="row text-center">
-          <div class="col">
-            <a href="#" class="btn btn-md btn-outline-light py-3 px-4 mt-4 text-uppercase fw-600 border-2"> Ver todos
-              os cursos</a>
-          </div>
-        </div>
-
-    </section>
-
-
-
-
-
-
-    <section class="mt-5 py-5">
-      <div class="container">
-        <div class="row">
-          <div class="col">
-            <div class="ui-title">
-              <h2 class="ui-title-main">O que dizem nossos alunos</h2>
-              <!-- <span class="ui-title-sub"> some subtitle</span> -->
-            </div>
-          </div>
-        </div>
-
-        <div class="row row-cols-1 row-cols-md-2 g-5" data-masonry='{"percentPosition": true }'>
-          <div class="col">
-            <div class="card card-testimonial">
-              <div class="card-testimonial__media">
-                <div class="videoWrapper">
-                  <iframe width="560" height="315"
-                    src="https://player.vimeo.com/video/462832179?autoplay=0&title=0&byline=0&portrait=0"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
-                </div>
-              </div>
-              <!-- <div class="blockquote">
-                <p>All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making
-                  this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined
-                  with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable.</p>
-              </div> -->
-              <h3 class="card-testimonial__name">Testimonial Name</h3>
-              <span class="card-testimonial__position">Testimonial position</span>
-            </div>
-          </div> <!-- //col-->
-
-          <div class="col">
-            <div class="card card-testimonial">
-              <!-- <div class="card-testimonial__media">
-                <div class="videoWrapper">
-                  <iframe width="560" height="315" src="https://www.youtube.com/embed/EFVcKWFajHI?autoplay=0"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
-                </div>
-              </div> -->
-              <div class="blockquote">
-                <p>All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making
-                  this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined
-                  with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable.</p>
-              </div>
-              <h3 class="card-testimonial__name">Testimonial Name</h3>
-              <span class="card-testimonial__position">Testimonial position</span>
-            </div>
-          </div> <!-- //col-->
-
-
-          <div class="col">
-            <div class="card card-testimonial">
-              <!-- <div class="card-testimonial__media">
-                <div class="videoWrapper">
-                  <iframe width="560" height="315" src="https://www.youtube.com/embed/EFVcKWFajHI?autoplay=0"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
-                </div>
-              </div> -->
-              <div class="blockquote">
-                <p>All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making
-                  this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined
-                  with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable.</p>
-              </div>
-              <h3 class="card-testimonial__name">Testimonial Name</h3>
-              <span class="card-testimonial__position">Testimonial position</span>
-            </div>
-          </div> <!-- //col-->
-
-
-          <div class="col">
-            <div class="card card-testimonial">
-              <!-- <div class="card-testimonial__media">
-                <div class="videoWrapper">
-                  <iframe width="560" height="315" src="https://www.youtube.com/embed/EFVcKWFajHI?autoplay=0"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
-                </div>
-              </div> -->
-              <div class="blockquote">
-                <p>All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making
-                  this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined
-                  with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable.</p>
-              </div>
-              <h3 class="card-testimonial__name">Testimonial Name</h3>
-              <span class="card-testimonial__position">Testimonial position</span>
-            </div>
-          </div> <!-- //col-->
-
-
-          <div class="col">
-            <div class="card card-testimonial">
-              <!-- <div class="card-testimonial__media">
-                <div class="videoWrapper">
-                  <iframe width="560" height="315" src="https://www.youtube.com/embed/EFVcKWFajHI?autoplay=0"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
-                </div>
-              </div> -->
-              <div class="blockquote">
-                <p>All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making
-                  this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined
-                  with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable.</p>
-              </div>
-              <h3 class="card-testimonial__name">Testimonial Name</h3>
-              <span class="card-testimonial__position">Testimonial position</span>
-            </div>
-          </div> <!-- //col-->
-
-          <div class="col">
-            <div class="card card-testimonial">
-              <div class="card-testimonial__media">
-                <div class="videoWrapper">
-                  <iframe width="560" height="315"
-                    src="https://player.vimeo.com/video/462832179?autoplay=0&title=0&byline=0&portrait=0"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
-                </div>
-              </div>
-              <!-- <div class="blockquote">
-                <p>All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making
-                  this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined
-                  with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable.</p>
-              </div> -->
-              <h3 class="card-testimonial__name">Testimonial Name</h3>
-              <span class="card-testimonial__position">Testimonial position</span>
-            </div>
-          </div> <!-- //col-->
-
-        </div> <!-- //row -->
-      </div> <!-- //container-->
-
-
-
-    </section>
-
-
-
-
-
-
-
-
-    <section class="mt-5 py-5">
+    <section class="mt-5 pt-2 pb-2">
       <div class="container">
         <div class="row">
           <div class="col-sm">
@@ -586,9 +122,9 @@
             </div>
           </div>
         </div>
-        <div class="row">
+        <div class="row justify-content-center row-cols-1 row-cols-lg-2 g-lg-5">
           <div class="col">
-            <div class="ui-plan bg-white mb-5 ms-auto">
+            <div class="ui-plan ff-primary bg-white mb-5 ms-auto">
               <div class="p-5">
                 <h5 class="ui-plan__title card-title text-uppercase text-center  mt-4">Odontopediatria <br>
                   Premium</h5>
@@ -686,6 +222,116 @@
 
 
 
+
+
+
+
+
+    <section class="mt-5 pb-5 pt-2">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-sm">
+            <div class="ui-title">
+              <h2 class="ui-title-main">Nossos cursos</h2>
+              <span class="ui-title-sub"> Últimos adicionados:</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+          <div class="col">
+            <div class="card card-course  card-course_is-new"
+              style="background-image: url(./assets/images/background-course-1.jpg);">
+              <a class="card-course_all_height" href="#">
+                <div class="card-course-content">
+
+                  <img class="img-thumbnai" src="./assets/images/square-person.png" alt="Nome alternativo">
+                  <h3>Juliana Andriani</h3>
+                  <div class="line"></div>
+                  <p>Impacção do primeiro molar permanente</p>
+                  <span class="time">
+                    <i class="far fa-clock"></i>
+                    18h/aula
+                  </span>
+                </div>
+              </a>
+            </div> <!-- // card-curso -->
+          </div><!-- //col -->
+
+          <div class="col">
+            <div class=" card card-course" style="background-image: url(./assets/images/background-course-2.jpg);">
+              <a class="card-course_all_height" href="#">
+                <div class="card-course-content">
+                  <img class="img-thumbnai" src="./assets/images/square-person-2.png" alt="Nome alternativo">
+                  <h3>Jéssica Barussel</h3>
+                  <div class="line"></div>
+                  <p>Endodontia mecanizada em dentes decíduos</p>
+                  <span class="time">
+                    <i class="far fa-clock"></i>
+                    18h/aula
+                  </span>
+                </div>
+              </a>
+            </div> <!-- // card-curso -->
+          </div><!-- //col -->
+
+
+          <div class="col">
+            <div class="card card-course  card-course_is-new"
+              style="background-image: url(./assets/images/background-course-1.jpg);">
+              <a class="card-course_all_height" href="#">
+                <div class="card-course-content">
+
+                  <img class="img-thumbnai" src="./assets/images/square-person.png" alt="Nome alternativo">
+                  <h3>Juliana Andriani</h3>
+                  <div class="line"></div>
+                  <p>Impacção do primeiro molar permanente</p>
+                  <span class="time">
+                    <i class="far fa-clock"></i>
+                    18h/aula
+                  </span>
+                </div>
+              </a>
+            </div> <!-- // card-curso -->
+          </div><!-- //col -->
+
+          <div class="col">
+            <div class=" card card-course" style="background-image: url(./assets/images/background-course-2.jpg);">
+              <a class="card-course_all_height" href="#">
+                <div class="card-course-content">
+                  <img class="img-thumbnai" src="./assets/images/square-person-2.png" alt="Nome alternativo">
+                  <h3>Jéssica Barussel</h3>
+                  <div class="line"></div>
+                  <p>Endodontia mecanizada em dentes decíduos</p>
+                  <span class="time">
+                    <i class="far fa-clock"></i>
+                    18h/aula
+                  </span>
+                </div>
+              </a>
+            </div> <!-- // card-curso -->
+          </div><!-- //col -->
+        </div>
+
+
+
+
+        <div class="row text-center">
+          <div class="col">
+            <a href="#" class="btn btn-md btn-outline-light py-3 px-4 mt-4 text-uppercase fw-600 border-2"> Ver todos
+              os cursos</a>
+          </div>
+        </div>
+
+    </section>
+
+
+
+
+
+
+
     <section class="py-5 my-5">
       <div class="container">
         <div class="row">
@@ -697,7 +343,7 @@
       </div>
       <div class="container-fluid">
         <div class="row">
-          <div id="carouselTestimonial" data-bs-interval="4000"
+          <div id="carouselTestimonial" data-bs-interval="1224000"
             class="ui-carousel carousel slide _carousel-fade text-white" data-bs-ride="carousel">
             <ol class="carousel-indicators">
               <li data-bs-target="#carouselTestimonial" data-bs-slide-to="0" class="active"></li>
@@ -706,13 +352,14 @@
             </ol>
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <div class="row justify-content-md-center align-items-center align-content-center m-auto">
-                  <div class="col-auto">
-                    <div class="picture-person" style="background-image: url(./assets/images/person-300x300.jpg);">
+                <div class="row justify-content-center align-items-center align-content-center m-auto">
+                  <div class="col-12 col-lg-auto justify-content-center">
+                    <div class="picture-person mb-5 m-auto"
+                      style="background-image: url(./assets/images/person-300x300.jpg);">
                     </div>
                   </div>
                   <div class="col">
-                    <figure class="ms-5">
+                    <figure class="ms-md-5">
                       <blockquote class="blockquote">
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem illum magni
                           numquam cupiditate
@@ -731,14 +378,14 @@
                 </div>
               </div>
               <div class="carousel-item">
-                <div class="row justify-content-md-center align-items-center align-content-center m-auto">
-                  <div class="col-auto">
-                    <div class="picture-person"
+                <div class="row justify-content-center align-items-center align-content-center m-auto">
+                  <div class="col-12 col-lg-auto justify-content-center ">
+                    <div class="picture-person mb-5 m-auto"
                       style="background-image: url(https://i1.wp.com/academiadaodontologia.com.br/wp-content/uploads/2019/06/Gabrielle_2-300x300.jpg?strip=195%2C195&quality=100&ssl=1);">
                     </div>
                   </div>
                   <div class="col">
-                    <figure class="ms-5">
+                    <figure class="ms-md-5">
                       <blockquote class="blockquote">
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem illum magni
                           numquam cupiditate
@@ -757,14 +404,14 @@
                 </div>
               </div>
               <div class="carousel-item">
-                <div class="row justify-content-md-center align-items-center align-content-center m-auto">
-                  <div class="col-auto">
-                    <div class="picture-person"
+                <div class="row justify-content-center align-items-center align-content-center m-auto">
+                  <div class="col-12 col-lg-auto justify-content-center">
+                    <div class="picture-person mb-5 m-auto"
                       style="background-image: url(https://i1.wp.com/academiadaodontologia.com.br/wp-content/uploads/2019/04/Micaela-300x300.jpg?strip=195%2C195&quality=100&ssl=1);">
                     </div>
                   </div>
                   <div class="col">
-                    <figure class="ms-5">
+                    <figure class="ms-md-5">
                       <blockquote class="blockquote">
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem illum magni
                           numquam cupiditate
@@ -800,9 +447,10 @@
 
 
 
-    <section class="banner-info banner-info--center">
+
+    <section class="banner-info banner-info--center py-5">
       <div class="container">
-        <div class="row">
+        <div class="row py-4">
           <div>
             <h2>Invista em conhecimento, invista em você</h2>
             <p class="lead">A comodidade do Ensino On-line aliada à interação com o professor possível no Ensino
@@ -819,16 +467,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
     <section class="mt-5 py-5">
       <div class="container">
         <div class="row">
@@ -838,12 +476,11 @@
               <h2 class="ui-title-main">Perguntas frequentes</h2>
             </div>
 
-
             <div class="ui-accordion accordion" id="accordionFaq">
               <div class="accordion-item">
                 <h2 class="accordion-header" id="heading1">
-                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1"
-                    aria-expanded="true" aria-controls="collapse1">
+                  <button class="accordion-button text-start" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
                     O que está incluído no curso on-line?
                   </button>
                 </h2>
@@ -864,7 +501,7 @@
               </div>
               <div class="accordion-item">
                 <h2 class="accordion-header" id="heading2">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  <button class="accordion-button collapsed text-start" type="button" data-bs-toggle="collapse"
                     data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
                     O pagamento é seguro?
                   </button>
@@ -885,7 +522,7 @@
               </div>
               <div class="accordion-item">
                 <h2 class="accordion-header" id="heading3">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  <button class="accordion-button collapsed text-start" type="button" data-bs-toggle="collapse"
                     data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
                     Como funcionam as aulas AO VIVO?
                   </button>
@@ -907,7 +544,7 @@
 
               <div class="accordion-item">
                 <h2 class="accordion-header" id="heading4">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  <button class="accordion-button collapsed text-start" type="button" data-bs-toggle="collapse"
                     data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
                     Como posso esclarecer minhas dúvidas?
                   </button>
@@ -928,7 +565,7 @@
 
               <div class="accordion-item">
                 <h2 class="accordion-header" id="heading5">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  <button class="accordion-button collapsed text-start" type="button" data-bs-toggle="collapse"
                     data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
                     Como posso estudar?
                   </button>
@@ -955,532 +592,13 @@
 
 
 
-    <section class="mt-5 py-5">
-      <div class="container">
-        <div class="row">
-          <div class="col">
-            <div class="ui-title">
-              <h2 class="ui-title-main">Quem somos</h2>
-            </div>
-
-            <div class="text-light fs-5 fw-lighter content-entry">
-              <img class="float-start me-5 mb-5" src="./assets/images/blog-image-1.jpg" alt="">
-              <p>A Academia da Odontologia foi criada em 2018 com o objetivo de oferecer uma plataforma completa e
-                acessível para quem almeja se manter atualizado com o que há de novo na Odontopediatria e Ortodontia.
-                Com
-                aulas online, a empresa tem a missão de entregar conteúdo de qualidade para que o aluno possa estudar
-                como
-                e onde quiser, dentro de sua disponibilidade.</p>
-              <p>Formada por uma equipe de especialistas em cursos preparatórios para a internet, a Academia da
-                Odontologia preza por atualidade em seus conteúdos e qualidade na produção. A equipe de professores
-                inclui
-                profissionais especializados em suas áreas de docência que trazem seus anos de experiência para as salas
-                de aula virtuais. Além de professores, muitos são também clínicos que conhecem por experiência própria o
-                dia a dia dos consultórios e a efetividade de seus tratamentos na prática.</p>
-              <p> O objetivo da Academia da Odontologia é, portanto, que qualquer pessoa possa estudar por um preço
-                justo
-                e dentro dos horários de que dispõe, bastando apenas ter um smartphone ou computador e uma conexão à
-                internet. Entendemos que qualquer profissional, em qualquer lugar do Brasil ou do mundo, deve ter a
-                oportunidade de estudar com excelentes professores e com um curso de didática prática e efetiva.</p>
-              <p>O objetivo da Academia da Odontologia é, portanto, que qualquer pessoa possa estudar por um preço justo
-                e
-                dentro dos horários de que dispõe, bastando apenas ter um smartphone ou computador e uma conexão à
-                internet. Entendemos que qualquer profissional, em qualquer lugar do Brasil ou do mundo, deve ter a
-                oportunidade de estudar com excelentes professores e com um curso de didática prática e efetiva.</p>
-            </div>
-
-
-          </div>
-        </div>
-
-        <div class="row mb-5">
-          <div class="col">
-            <div class="ui-title">
-              <h2 class="ui-title-main">Professores da academia</h2>
-            </div>
-          </div>
-        </div>
-        <div class="row row-cols-1">
-          <div class="col">
-            <div class="row text-light g-0  rounded overflow-hidden flex-md-row mb-5 shadow-sm  position-relative">
-              <div class="col-auto d-none d-lg-block">
-                <img width="112" class="border-0 rounded-circle" src="assets/images/person-300x300.jpg" alt="">
-              </div>
-              <div class="col p-4 pt-1 ps-5 d-flex flex-column position-static">
-                <h3 class="fs-4 fw-bolder">Juliana Pereira Andriani</h3>
-                <div class="fw-lighter fs-5">
-                  <ul class="list-unstyled fw-lighter fs-5">
-                    <li>Especialista em Odontopediatria - PUC/PR </li>
-                    <li>Mestre em Odontologia / Área de Concentração Odontopediatria - UFSC/SC</li>
-                    <li>Habilitação em Sedação Consciente com Óxido Nitroso</li>
-                    <li>Professora e Coordenadora do Curso de Especialização e Atualização em Odontopediatria - ABCD
-                    </li>
-                    <li>IAPD Membro do board 2019/2021 - Membership Committee</li>
-                    <li>Idealizadora da CAIXA GUIA - Odontopediatria</li>
-                    <li>Clinical Adviser NuSmile no Brasil</li>
-                  </ul>
-                  <p>
-                    Especialista em Odontopediatria - PUC/PR<br>
-                    Mestre em Odontologia / Área de Concentração Odontopediatria - UFSC/SC<br>
-                    Habilitação em Sedação Consciente com Óxido Nitroso<br>
-                    Professora e Coordenadora do Curso de Especialização e Atualização em Odontopediatria - ABCD<br>
-                    IAPD Membro do board 2019/2021 - Membership Committee<br>
-                    Idealizadora da CAIXA GUIA - Odontopediatria<br>
-                    Clinical Adviser NuSmile no Brasil
-                  </p>
-                </div>
-
-                <ul class="list-inline fs-5">
-                  <li class="list-inline-item">
-                    <a href="#" class="text-light"> <i class="fab fa-facebook-f"></i> </a>
-                  </li>
-                  <li class="list-inline-item ms-3">
-                    <a href="#" class="text-light"> <i class="fab fa-instagram"></i></a>
-                  </li>
-                  <li class="list-inline-item ms-3">
-                    <a href="#" class="text-light"> <i class="fab fa-youtube"></i></a>
-                  </li>
-                  <li class="list-inline-item ms-3">
-                    <a href="#" class="text-light"> <i class="fab fa-twitter"></i></a>
-                  </li>
-                  <li class="list-inline-item ms-3">
-                    <a href="#" class="text-light"> <i class="fab fa-linkedin"></i></a>
-                  </li>
-                </ul>
-
-              </div>
-            </div>
-          </div> <!-- //col-->
-
-
-          <div class="col">
-            <div class="row text-light g-0  rounded overflow-hidden flex-md-row mb-5 shadow-sm position-relative">
-              <div class="col-auto d-none d-lg-block">
-                <img width="112" class="border-0 rounded-circle" src="assets/images/person-300x300.jpg" alt="">
-              </div>
-              <div class="col p-4 pt-1 ps-5 d-flex flex-column position-static">
-                <h3 class="fs-4 fw-bolder">Juliana Pereira Andriani</h3>
-                <div class="fw-lighter fs-5">
-                  <ul class="list-unstyled fw-lighter fs-5">
-                    <li>Especialista em Odontopediatria - PUC/PR </li>
-                    <li>Mestre em Odontologia / Área de Concentração Odontopediatria - UFSC/SC</li>
-                    <li>Habilitação em Sedação Consciente com Óxido Nitroso</li>
-                    <li>Professora e Coordenadora do Curso de Especialização e Atualização em Odontopediatria - ABCD
-                    </li>
-                    <li>IAPD Membro do board 2019/2021 - Membership Committee</li>
-                    <li>Idealizadora da CAIXA GUIA - Odontopediatria</li>
-                    <li>Clinical Adviser NuSmile no Brasil</li>
-                  </ul>
-                  <p>
-                    Especialista em Odontopediatria - PUC/PR<br>
-                    Mestre em Odontologia / Área de Concentração Odontopediatria - UFSC/SC<br>
-                    Habilitação em Sedação Consciente com Óxido Nitroso<br>
-                    Professora e Coordenadora do Curso de Especialização e Atualização em Odontopediatria - ABCD<br>
-                    IAPD Membro do board 2019/2021 - Membership Committee<br>
-                    Idealizadora da CAIXA GUIA - Odontopediatria<br>
-                    Clinical Adviser NuSmile no Brasil
-                  </p>
-                </div>
-
-                <ul class="list-inline fs-5">
-                  <li class="list-inline-item">
-                    <a href="#" class="text-light"> <i class="fab fa-facebook-f"></i> </a>
-                  </li>
-                  <li class="list-inline-item ms-3">
-                    <a href="#" class="text-light"> <i class="fab fa-instagram"></i></a>
-                  </li>
-                  <li class="list-inline-item ms-3">
-                    <a href="#" class="text-light"> <i class="fab fa-youtube"></i></a>
-                  </li>
-                  <li class="list-inline-item ms-3">
-                    <a href="#" class="text-light"> <i class="fab fa-twitter"></i></a>
-                  </li>
-                  <li class="list-inline-item ms-3">
-                    <a href="#" class="text-light"> <i class="fab fa-linkedin"></i></a>
-                  </li>
-                </ul>
-
-              </div>
-            </div>
-          </div> <!-- //col-->
-
-        </div>
-
-      </div>
-    </section>
-
-
-
-
-    <article class="">
-
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <div class="ui-title">
-              <h2 class="ui-title-main">Blog da Academia</h2>
-            </div>
-          </div>
-          <!--//col-12-->
-        </div> <!-- //row-->
-
-        <div class="row bg-white">
-          <div class="col-12 p-2 pb-4">
-
-            <header class="entry-header ff-primary">
-              <span class="badge bg-primary mb-3 fs-small rounded-0 text-uppercase p-2 ff-primary">E-Book</span>
-              <h1 class="entry-title">Apneia Obstrutiva do Sono em crianças: Conduta
-                terapêutica</h1>
-              <ul class="list-inline pt-3">
-                <li class="list-inline-item"><img src="assets/images/square-person.png" class="border-1 rounded-circle"
-                    width="55px" height="55px" alt="Author name">
-                </li>
-                <li class="list-inline-item fs-5">Juliana Andriani</li>
-              </ul>
-              <span class="text-muted"> 15 jan 2021</span>
-            </header>
-
-            <div class="entry-content">
-
-              <p> Entenda a importância do cirurgião dentista na prevenção das doenças bucais na gestante e quais os
-                cuidados essenciais para o atendimento odontológico em gestantes baixando o e-book Pré-Natal
-                Odontológico. </p>
-              <p> Você sabe o que é Pré-Natal odontológico? O objetivo do pré-natal odontológico é dar atenção integral
-                ao binômio materno-fetal, ou seja, cuidar da saúde bucal da gestante, assim como dar as primeiras
-                orientações em relação à saúde bucal de seu bebê.</p>
-              <p> Porém, o número de gestantes que buscam atendimento odontológico ainda é pequeno. <strong>Mas por que
-                  será?</strong>
-              </p>
-              <p> Às vezes o que falta é conhecimento da gestante em relação a importância de manter uma boa saúde bucal
-                para a saúde de seu bebê, já que problemas bucais também podem estar associados à parto prematuro ou
-                mesmo pré-eclâmpsia, ou mesmo falta de conhecimento do cirurgião dentista em saber como conduzir o
-                tratamento dessa gestante.</p>
-              <p> <strong>Leia também o texto</strong> <em>“Como se diferenciar no mercado de trabalho oferecendo
-                  atendimento odontológico
-                  para gestante”</em>.</p>
-              <p> Por isso um trabalho do cirurgião dentista direcionado às mulheres gestantes pode ser uma boa
-                estratégia para se diferenciar no mercado de trabalho.</p>
-              <p> A Academia da Odontologia juntamente com a Professora Aline Manfro preparou e-book com os 10 cuidados
-                essenciais para o tratamento odontológico em gestantes com o intuito de auxiliar o cirurgião-dentista no
-                atendimento à gestante.gravidez.</p>
-
-              <h3> 01. Anamnese direcionada para gestantes</h3>
-
-              <p> Para definir o melhor horário e tempo de atendimento à gestante, é importante acrescentar algumas
-                perguntas em sua anamnese, como: qual o tempo de gestação? Sente náuseas ou vômitos?</p>
-              <p> Essas perguntas podem direcionar o profissional em relação ao melhor o horário e o momento oportuno de
-                atendimento.</p>
-
-              <h3> 02. Monitore os sinais vitais no pré-natal odontológico </h3>
-              <p> A avaliação dos sinais vitais antes do atendimento, como frequência respiratória, frequência cardíaca
-                e pressão arterial, ajudam a estabelecer um padrão de normalidade antes e após à consulta, bem como
-                avaliar o estado de saúde geral de sua paciente.</p>
-              <p> Dessa forma o profissional pode orientar sua conduta clínica em consultas posteriores como reduzir o
-                tempo de atendimento ou rever a realização do procedimento caso encontre alterações dos sinais vitais.
-              </p>
-
-
-              <h3> 03. Horário de atendimento</h3>
-              <p> Dê preferência para realizar o atendimento no segundo período da manhã, já que geralmente neste
-                horário a gestante está mais disposta e as náuseas são menos frequentes.</p>
-
-
-
-              <h2>Headings</h2>
-              <h1>Header one</h1>
-              <h2>Header two</h2>
-              <h3>Header three</h3>
-              <h4>Header four</h4>
-              <h5>Header five</h5>
-              <h6>Header six</h6>
-              <h2>Blockquotes</h2>
-              <p>Single line blockquote:</p>
-              <blockquote>
-                <p>Stay hungry. Stay foolish.</p>
-              </blockquote>
-              <p>Multi line blockquote with a cite reference:</p>
-              <blockquote>
-                <p>People think focus means saying yes to the thing you’ve got to focus on. But that’s not what it means
-                  at all. It means saying no to the hundred other good ideas that there are. You have to pick carefully.
-                  I’m actually as proud of the things we haven’t done as the things I have done. Innovation is saying no
-                  to 1,000 things. <cite>Steve Jobs – Apple Worldwide Developers’ Conference, 1997</cite></p>
-              </blockquote>
-
-
-              <div id="v-tFnqC9XQ-1" class="videoWrapper">
-                <iframe width="600" height="337.05882352941177"
-                  src="https://videopress.com/embed/tFnqC9XQ?hd=1&amp;loop=0&amp;autoPlay=0&amp;permalink=1"
-                  frameborder="0" allowfullscreen=""></iframe>
-                <script src="https://s0.wp.com/wp-content/plugins/video/assets/js/next/videopress-iframe.js"></script>
-              </div>
-
-
-              <h2>Tables</h2>
-              <table>
-                <tbody>
-                  <tr>
-                    <th>Employee</th>
-                    <th class="views">Salary</th>
-                    <th></th>
-                  </tr>
-                  <tr class="odd">
-                    <td><a href="http://john.do/">John Saddington</a></td>
-                    <td>$1</td>
-                    <td>Because that’s all Steve Job’ needed for a salary.</td>
-                  </tr>
-                  <tr class="even">
-                    <td><a href="http://tommcfarlin.com/">Tom McFarlin</a></td>
-                    <td>$100K</td>
-                    <td>For all the blogging he does.</td>
-                  </tr>
-                  <tr class="odd">
-                    <td><a href="http://jarederickson.com/">Jared Erickson</a></td>
-                    <td>$100M</td>
-                    <td>Pictures are worth a thousand words, right? So Tom x 1,000.</td>
-                  </tr>
-                  <tr class="even">
-                    <td><a href="http://chrisam.es/">Chris Ames</a></td>
-                    <td>$100B</td>
-                    <td>With hair like that?! Enough said…</td>
-                  </tr>
-                </tbody>
-              </table>
-              <h2>Definition Lists</h2>
-              <dl>
-                <dt>Definition List Title</dt>
-                <dd>Definition list division.</dd>
-                <dt>Startup</dt>
-                <dd>A startup company or startup is a company or temporary organization designed to search for a
-                  repeatable and scalable business model.</dd>
-                <dt>#dowork</dt>
-                <dd>Coined by Rob Dyrdek and his personal body guard Christopher “Big Black” Boykins, “Do Work” works as
-                  a self motivator, to motivating your friends.</dd>
-                <dt>Do It Live</dt>
-                <dd>I’ll let Bill O’Reilly will <a title="We'll Do It Live"
-                    href="https://www.youtube.com/watch?v=O_HyZ5aW76c">explain</a> this one.</dd>
-              </dl>
-              <h2>Unordered Lists (Nested)</h2>
-              <ul>
-                <li>List item one
-                  <ul>
-                    <li>List item one
-                      <ul>
-                        <li>List item one</li>
-                        <li>List item two</li>
-                        <li>List item three</li>
-                        <li>List item four</li>
-                      </ul>
-                    </li>
-                    <li>List item two</li>
-                    <li>List item three</li>
-                    <li>List item four</li>
-                  </ul>
-                </li>
-                <li>List item two</li>
-                <li>List item three</li>
-                <li>List item four</li>
-              </ul>
-              <h2>Ordered List (Nested)</h2>
-              <ol>
-                <li>List item one
-                  <ol>
-                    <li>List item one
-                      <ol>
-                        <li>List item one</li>
-                        <li>List item two</li>
-                        <li>List item three</li>
-                        <li>List item four</li>
-                      </ol>
-                    </li>
-                    <li>List item two</li>
-                    <li>List item three</li>
-                    <li>List item four</li>
-                  </ol>
-                </li>
-                <li>List item two</li>
-                <li>List item three</li>
-                <li>List item four</li>
-              </ol>
-              <h2>HTML Tags</h2>
-              <p>These supported tags come from the WordPress.com code <a title="Code"
-                  href="http://en.support.wordpress.com/code/">FAQ</a>.</p>
-              <p><strong>Address Tag</strong></p>
-              <address>1 Infinite Loop<br>
-                Cupertino, CA 95014<br>
-                United States</address>
-              <p><strong>Anchor Tag (aka. Link)</strong></p>
-              <p>This is an example of a <a title="Apple" href="http://apple.com">link</a>.</p>
-              <p><strong>Abbreviation Tag</strong></p>
-              <p>The abbreviation <abbr title="Seriously">srsly</abbr> stands for “seriously”.</p>
-              <p><strong>Acronym Tag</strong></p>
-              <p>The acronym <acronym title="For The Win">ftw</acronym> stands for “for the win”.</p>
-              <p><strong>Big Tag</strong></p>
-              <p>These tests are a <big>big</big> deal, but this tag is no longer supported in HTML5.</p>
-              <p><strong>Cite Tag</strong></p>
-              <p>“Code is poetry.” —<cite>Automattic</cite></p>
-              <p><strong>Code Tag</strong></p>
-              <p>You will learn later on in these tests that <code>word-wrap: break-word;</code> will be your best
-                friend.</p>
-              <p><strong>Delete Tag</strong></p>
-              <p>This tag will let you <del>strikeout text</del>, but this tag is no longer supported in HTML5 (use the
-                <code>&lt;strike&gt;</code> instead).
-              </p>
-              <p><strong>Emphasize Tag</strong></p>
-              <p>The emphasize tag should <em>italicize</em> text.</p>
-              <p><strong>Insert Tag</strong></p>
-              <p>This tag should denote <ins>inserted</ins> text.</p>
-              <p><strong>Keyboard Tag</strong></p>
-              <p>This scarsly known tag emulates <kbd>keyboard text</kbd>, which is usually styled like the
-                <code>&lt;code&gt;</code> tag.
-              </p>
-              <p><strong>Preformatted Tag</strong></p>
-              <p>This tag styles large blocks of code.</p>
-              <pre>.post-title {
-            margin: 0 0 5px;
-            font-weight: bold;
-            font-size: 38px;
-            line-height: 1.2;
-          }</pre>
-              <p><strong>Quote Tag</strong></p>
-              <p><q>Developers, developers, developers…</q> –Steve Ballmer</p>
-              <p><strong>Strong Tag</strong></p>
-              <p>This tag shows <strong>bold<strong> text.</strong></strong></p>
-              <p><strong>Subscript Tag</strong></p>
-              <p>Getting our science styling on with H<sub>2</sub>O, which should push the “2” down.</p>
-              <p><strong>Superscript Tag</strong></p>
-              <p>Still sticking with science and Albert Einstein’s&nbsp;E = MC<sup>2</sup>, which should lift the “2”
-                up.</p>
-              <p><strong>Teletype Tag</strong></p>
-              <p>This rarely used tag emulates <tt>teletype text</tt>, which is usually styled like the
-                <code>&lt;code&gt;</code> tag.
-              </p>
-              <p><strong>Variable Tag</strong></p>
-              <p>This allows you to denote <var>variables</var>.</p>
-
-              <p>Welcome to image alignment! The best way to demonstrate the ebb and flow of the various image
-                positioning options is to nestle them snuggly among an ocean of words. Grab a paddle and let’s get
-                started.</p>
-              <p>On the topic of alignment, it should be noted that users can choose from the options
-                of&nbsp;<em>None</em>,&nbsp;<em>Left</em>,&nbsp;<em>Right, </em>and&nbsp;<em>Center</em>. In addition,
-                they also get the options
-                of&nbsp;<em>Thumbnail</em>,&nbsp;<em>Medium</em>,&nbsp;<em>Large</em>&nbsp;&amp;&nbsp;<em>Fullsize</em>.
-              </p>
-              <p style="text-align: center"><img loading="lazy" class="size-full wp-image-906 aligncenter"
-                  title="Image Alignment 580x300" alt="Image Alignment 580x300"
-                  src="./assets/images/image-alignment-580x300.jpg" width="580" height="300"
-                  srcset="./assets/images/image-alignment-580x300.jpg 580w, ./assets/images/image-alignment-580x300-300x155.jpg 300w"
-                  sizes="(max-width: 580px) 85vw, 580px"></p>
-              <p>The image above happens to be&nbsp;<em><strong>centered</strong></em>.</p>
-              <p><strong><img loading="lazy" class="size-full wp-image-904 alignleft" title="Image Alignment 150x150"
-                    alt="Image Alignment 150x150" src="./assets/images/image-alignment-150x150.jpg" width="150"
-                    height="150"></strong>...The rest of this paragraph is filler&nbsp;for the sake of seeing
-                the text wrap around the 150×150 image, which is <em><strong>left
-                    aligned</strong></em>.&nbsp;<strong></strong></p>
-              <p>As you can see the should be some space above, below, and to the right of the image. The text should
-                not be creeping on the image. Creeping is just not right. Images need breathing room too. Let them speak
-                like you words. Let them do their jobs without any hassle from the text. In about one
-                more&nbsp;sentence&nbsp;here, we’ll see that the text moves from the right of the image down below the
-                image in&nbsp;seamless&nbsp;transition. Again, letting the do it’s thang.&nbsp;Mission accomplished!</p>
-              <p>And now for a <em><strong>massively large image</strong></em>. It also has <em><strong>no
-                    alignment</strong></em>.</p>
-              <p><img loading="lazy" class="alignnone  wp-image-907" title="Image Alignment 1200x400"
-                  alt="Image Alignment 1200x400" src="./assets/images/image-alignment-1200x4002.jpg" width="1200"
-                  height="400"
-                  srcset="./assets/images/image-alignment-1200x4002.jpg 1200w, ./assets/images/image-alignment-1200x4002-300x100.jpg 300w, ./assets/images/image-alignment-1200x4002-768x256.jpg 768w, ./assets/images/image-alignment-1200x4002-1024x341.jpg 1024w"
-                  sizes="(max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 1362px) 62vw, 840px"></p>
-              <p>The image above, though 1200px wide, should not overflow the content area. It should remain contained
-                with no visible disruption to the flow of content.</p>
-              <p><img loading="lazy" class="size-full wp-image-905 alignright" title="Image Alignment 300x200"
-                  alt="Image Alignment 300x200" src="./assets/images/image-alignment-300x200.jpg" width="300"
-                  height="200"></p>
-              <p>And now we’re going to shift things to the <em><strong>right align</strong></em>. Again, there should
-                be plenty of room above, below, and to the left of the image. Just look at him there… Hey guy! Way to
-                rock that right side. I don’t care what the left aligned image says, you look great. Don’t let anyone
-                else tell you differently.</p>
-              <p>In just a bit here, you should see the text start to wrap below the right aligned image and settle in
-                nicely. There should still be plenty of room and everything should be sitting pretty.&nbsp;Yeah… Just
-                like that. It never felt so good to be right.</p>
-              <p>And just when you thought we were done, we’re going to do them all over again with captions!</p>
-              <figure id="attachment_906" aria-describedby="caption-attachment-906" style="width: 580px"
-                class="wp-caption aligncenter"><img loading="lazy" class="size-full wp-image-906  "
-                  title="Image Alignment 580x300" alt="Image Alignment 580x300"
-                  src="http://wptest.iodemo/wp-content/uploads/sites/2/2013/03/image-alignment-580x300.jpg" width="580"
-                  height="300"
-                  srcset="http://wptest.io/demo/wp-content/uploads/sites/2/2013/03/image-alignment-580x300.jpg 580w, http://wptest.io/demo/wp-content/uploads/sites/2/2013/03/image-alignment-580x300-300x155.jpg 300w"
-                  sizes="(max-width: 580px) 85vw, 580px">
-                <figcaption id="caption-attachment-906" class="wp-caption-text">Look at 580×300 getting some <a
-                    title="Image Settings" href="http://en.support.wordpress.com/images/image-settings/">caption</a>
-                  love.</figcaption>
-              </figure>
-              <p>The image above happens to be&nbsp;<em><strong>centered</strong></em>. The caption also has a link in
-                it, just to see if it does anything funky.</p>
-              <figure id="attachment_904" aria-describedby="caption-attachment-904" style="width: 150px"
-                class="wp-caption alignleft"><img loading="lazy" class="size-full wp-image-904  "
-                  title="Image Alignment 150x150" alt="Image Alignment 150x150"
-                  src="./assets/images/image-alignment-150x150.jpg" width="150" height="150">
-                <figcaption id="caption-attachment-904" class="wp-caption-text">Itty-bitty caption.</figcaption>
-              </figure>
-              <p><strong></strong>The rest of this paragraph is filler&nbsp;for the sake of seeing the text wrap around
-                the 150×150 image, which is <em><strong>left aligned</strong></em>.&nbsp;<strong></strong></p>
-              <p>As you can see the should be some space above, below, and to the right of the image. The text should
-                not be creeping on the image. Creeping is just not right. Images need breathing room too. Let them speak
-                like you words. Let them do their jobs without any hassle from the text. In about one
-                more&nbsp;sentence&nbsp;here, we’ll see that the text moves from the right of the image down below the
-                image in&nbsp;seamless&nbsp;transition. Again, letting the do it’s thang. Mission accomplished!</p>
-              <p>And now for a <em><strong>massively large image</strong></em>. It also has <em><strong>no
-                    alignment</strong></em>.</p>
-              <figure id="attachment_907" aria-describedby="caption-attachment-907" style="width: 1200px"
-                class="wp-caption alignnone"><img loading="lazy" class=" wp-image-907" title="Image Alignment 1200x400"
-                  alt="Image Alignment 1200x400"
-                  src="http://wptest.iodemo/wp-content/uploads/sites/2/2013/03/image-alignment-1200x4002.jpg"
-                  width="1200" height="400"
-                  srcset="http://wptest.io/demo/wp-content/uploads/sites/2/2013/03/image-alignment-1200x4002.jpg 1200w, http://wptest.io/demo/wp-content/uploads/sites/2/2013/03/image-alignment-1200x4002-300x100.jpg 300w, http://wptest.io/demo/wp-content/uploads/sites/2/2013/03/image-alignment-1200x4002-768x256.jpg 768w, http://wptest.io/demo/wp-content/uploads/sites/2/2013/03/image-alignment-1200x4002-1024x341.jpg 1024w"
-                  sizes="(max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 1362px) 62vw, 840px">
-                <figcaption id="caption-attachment-907" class="wp-caption-text">Massive image comment for your eyeballs.
-                </figcaption>
-              </figure>
-              <p>The image above, though 1200px wide, should not overflow the content area. It should remain contained
-                with no visible disruption to the flow of content.</p>
-              <figure id="attachment_905" aria-describedby="caption-attachment-905" style="width: 300px"
-                class="wp-caption alignright"><img loading="lazy" class="size-full wp-image-905 "
-                  title="Image Alignment 300x200" alt="Image Alignment 300x200"
-                  src="./assets/images/image-alignment-300x200.jpg" width="300" height="200">
-                <figcaption id="caption-attachment-905" class="wp-caption-text">Feels good to be right all the time.
-                </figcaption>
-              </figure>
-              <p>And now we’re going to shift things to the <em><strong>right align</strong></em>. Again, there should
-                be plenty of room above, below, and to the left of the image. Just look at him there… Hey guy! Way to
-                rock that right side. I don’t care what the left aligned image says, you look great. Don’t let anyone
-                else tell you differently.</p>
-              <p>In just a bit here, you should see the text start to wrap below the right aligned image and settle in
-                nicely. There should still be plenty of room and everything should be sitting pretty. Yeah… Just like
-                that. It never felt so good to be right.</p>
-              <p>And that’s a wrap, yo! You survived the&nbsp;tumultuous&nbsp;waters of alignment. Image alignment
-                achievement unlocked!</p>
-
-
-
-
-
-            </div>
-
-
-
-          </div>
-          <!--//col-12-->
-        </div> <!-- //row-->
-
-      </div> <!-- //container-->
-    </article>
-
-
 
   </main>
 
 
 
 
-  <footer class=" text-white py-3">
+  <footer class=" text-white py-3 px-4">
     <div class="container pb-4 pt-5 py-md-6">
       <div class="row justify-content-md-between">
         <div class="col-12 col-sm-6 col-md-4 col-lg-3">
@@ -1499,7 +617,7 @@
             <li class="mb-4"><a href="#" class="text-white">Contato</a></li>
           </ul>
         </div>
-        <div class="col-sm-12  col-sm-12 col-md-4 mt-4 mt-md-0 ms-auto">
+        <div class="col-sm-12 col-lg-4 mt-4 mt-md-0 ms-auto">
           <h2 class="h6 mb-3">Inscreva-se em nossa newsletter</h2>
           <div class="input-group mb-2">
             <input type="text" class="form-control rounded-0 border-0" placeholder="name@example.com"

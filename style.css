@@ -374,52 +374,12 @@ progress {
   font-weight: 300; }
 
 .display-1 {
-  font-size: calc(1.625rem + 4.5vw);
+  font-size: calc(1.55rem + 3.6vw);
   font-weight: 300;
   line-height: 1.2; }
   @media (min-width: 1200px) {
     .display-1 {
-      font-size: 5rem; } }
-
-.display-2 {
-  font-size: calc(1.575rem + 3.9vw);
-  font-weight: 300;
-  line-height: 1.2; }
-  @media (min-width: 1200px) {
-    .display-2 {
-      font-size: 4.5rem; } }
-
-.display-3 {
-  font-size: calc(1.525rem + 3.3vw);
-  font-weight: 300;
-  line-height: 1.2; }
-  @media (min-width: 1200px) {
-    .display-3 {
-      font-size: 4rem; } }
-
-.display-4 {
-  font-size: calc(1.475rem + 2.7vw);
-  font-weight: 300;
-  line-height: 1.2; }
-  @media (min-width: 1200px) {
-    .display-4 {
-      font-size: 3.5rem; } }
-
-.display-5 {
-  font-size: calc(1.425rem + 2.1vw);
-  font-weight: 300;
-  line-height: 1.2; }
-  @media (min-width: 1200px) {
-    .display-5 {
-      font-size: 3rem; } }
-
-.display-6 {
-  font-size: calc(1.375rem + 1.5vw);
-  font-weight: 300;
-  line-height: 1.2; }
-  @media (min-width: 1200px) {
-    .display-6 {
-      font-size: 2.5rem; } }
+      font-size: 4.25rem; } }
 
 .list-unstyled {
   padding-left: 0;
@@ -7532,7 +7492,6 @@ textarea.form-control-lg {
   position: relative;
   overflow: hidden; }
   .hero h1, .hero .h1 {
-    font-size: 68px;
     font-weight: 700;
     color: #fff; }
   .hero .container {
@@ -7568,10 +7527,7 @@ textarea.form-control-lg {
   /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(134deg, var(--bs-primary) 18%, var(--bs-secondary) 70%);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  color: #fff;
-  padding-top: 7rem;
-  padding-bottom: 7rem;
-  margin-top: 3rem; }
+  color: #fff; }
   .banner-info--center {
     text-align: center; }
   .banner-info h2, .banner-info .h2 {
@@ -7807,26 +7763,25 @@ footer .nav li a {
     .card-testimonial .blockquote p {
       margin-bottom: 0; }
 
-.ui-plan {
-  font-family: 'Raleway', sans-serif;
-  max-width: 570px; }
-  .ui-plan__title {
-    font-size: 32px;
-    color: #201e22;
-    font-weight: 900;
-    margin-bottom: 30px; }
-  .ui-plan__price {
-    text-align: center;
-    font-size: 24px;
-    font-weight: 200;
-    font-family: 'Open Sans', sans-serif; }
-    .ui-plan__price span {
-      font-size: 36px;
-      letter-spacing: -0.1rem; }
-  .ui-plan__list {
-    font-size: 18px;
-    font-weight: 600;
-    font-family: 'Open Sans', sans-serif; }
+.ui-plan__title {
+  font-size: 32px;
+  color: #201e22;
+  font-weight: 900;
+  margin-bottom: 30px; }
+
+.ui-plan__price {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 200;
+  font-family: 'Open Sans', sans-serif; }
+  .ui-plan__price span {
+    font-size: 36px;
+    letter-spacing: -0.1rem; }
+
+.ui-plan__list {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: 'Open Sans', sans-serif; }
 
 .entry-header {
   padding: 3rem 3rem 1rem 3rem; }
@@ -7995,6 +7950,9 @@ footer .nav li a {
 
 .fs-small {
   font-size: 11px; }
+
+.border-light-025 {
+  border-color: rgba(255, 255, 255, 0.25) !important; }
 
 .list-invist {
   list-style: none; }
