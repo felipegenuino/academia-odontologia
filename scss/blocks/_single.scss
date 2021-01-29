@@ -1,4 +1,14 @@
+.return-page{
+    span {
+        transform: translateX(0px);
+        transition: all 0.2s linear;
+    }
+    &:hover span {
+        transform: translateX(-10px);
+    }
+}
 
+ 
 .entry-header{
     h1 { 
         color: var(--bs-primary);
