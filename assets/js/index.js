@@ -1,13 +1,6 @@
 console.log('rodou');
 
 
-/*
-Animate On Scroll Library
-========================= */
-AOS.init();
-
-/* ---------------------------- */
-
 
 
 /* vanilla scroll
@@ -24,6 +17,8 @@ const remove_class_on_scroll = () => header.classList.remove("bg-dark")
 window.addEventListener('scroll', function () {
     scrollpos = window.scrollY;
 
+
+
     if (scrollpos >= header_height) { add_class_on_scroll() }
     else { remove_class_on_scroll() }
 
@@ -32,4 +27,22 @@ window.addEventListener('scroll', function () {
 
 // end vanilla scrol
 
+
+
+
+
+/* ---------------------------- */
+
+
+
+
+
+
+
+/*
+Animate On Scroll Library
+========================= */
+AOS.init();
+
+/* ---------------------------- */
 
