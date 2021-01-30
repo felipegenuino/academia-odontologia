@@ -3382,7 +3382,7 @@ textarea.form-control-lg {
   border-color: #dee2e6; }
 
 .page-link {
-  padding: 0.375rem 0.75rem; }
+  padding: 0.375rem 1rem; }
 
 .page-item:first-child .page-link {
   border-top-left-radius: 0.2rem;
