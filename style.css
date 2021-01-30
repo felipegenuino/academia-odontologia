@@ -3346,18 +3346,18 @@ textarea.form-control-lg {
 .page-link {
   position: relative;
   display: block;
-  color: #e71d7c;
+  color: #fff;
   text-decoration: none;
-  background-color: #fff;
-  border: 1px solid #dee2e6;
+  background-color: transparent;
+  border: 1px solid #656565;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; }
   @media (prefers-reduced-motion: reduce) {
     .page-link {
       transition: none; } }
   .page-link:hover {
     z-index: 2;
-    color: #b91763;
-    background-color: #e9ecef;
+    color: #fff;
+    background-color: #434343;
     border-color: #dee2e6; }
   .page-link:focus {
     z-index: 3;
@@ -3371,9 +3371,9 @@ textarea.form-control-lg {
 
 .page-item.active .page-link {
   z-index: 3;
-  color: #fff;
-  background-color: #e71d7c;
-  border-color: #e71d7c; }
+  color: #1b1b1b;
+  background-color: #fff;
+  border-color: #fff; }
 
 .page-item.disabled .page-link {
   color: #6c757d;
