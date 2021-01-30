@@ -7495,10 +7495,16 @@ textarea.form-control-lg {
   background-size: cover;
   align-items: flex-end;
   display: flex;
-  padding-bottom: 200px;
+  padding-bottom: 80px;
   font-family: "Raleway", sans-serif;
   position: relative;
   overflow: hidden; }
+  .hero-button {
+    border: 2px solid var(--bs-primary); }
+    .hero-button:hover {
+      border-color: var(--bs-primary);
+      color: var(--bs-primary);
+      background-color: white; }
   .hero h1, .hero .h1 {
     font-weight: 700;
     color: #fff; }
@@ -7557,11 +7563,14 @@ textarea.form-control-lg {
     border: 2px solid;
     padding: 0.7rem 2rem;
     margin-top: 1.3rem;
-    transition: all 0.2s linear; }
+    transition: background-color 0.2s linear;
+    border: 2px solid;
+    background-color: rgba(255, 255, 255, 0);
+    border-color: white; }
     .banner-info .btn:hover {
-      background-color: rgba(255, 255, 255, 0.1);
-      color: #fff;
-      border-color: #fff; }
+      background-color: white;
+      color: var(--bs-primary);
+      border-color: var(--bs-primary); }
 
 /* header*/
 header.navbar-expand-md .navbar-nav {
@@ -7810,7 +7819,7 @@ footer .nav li a {
     font-weight: 300;
     font-size: 16px; }
   .card-testimonial .blockquote {
-    background-color: black;
+    background-color: #181818;
     color: #c7c7c7;
     padding: 150px 60px 50px 60px;
     font-size: 20px;
