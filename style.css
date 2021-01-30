@@ -7588,7 +7588,14 @@ header .btn {
   padding-bottom: 10px; }
 
 /* The side navigation menu */
-.sidenav {
+.app-content-overlayer {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.25);
+  height: 100%;
+  width: 100%;
+  transition: all 0.2s linear; }
+
+.app-mobile-sidebar {
   height: 100%;
   /* 100% Full-height */
   width: 0;
@@ -7609,7 +7616,7 @@ header .btn {
   /* 0.5 second transition effect to slide in the sidenav */ }
 
 /* The navigation menu links */
-.sidenav a {
+.app-mobile-sidebar a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 25px;
@@ -7618,11 +7625,11 @@ header .btn {
   transition: 0.3s; }
 
 /* When you mouse over the navigation links, change their color */
-.sidenav a:hover {
+.app-mobile-sidebar a:hover {
   color: #f1f1f1; }
 
 /* Position and style the close button (top right corner) */
-.sidenav .closebtn {
+.app-mobile-sidebar .closebtn {
   position: absolute;
   top: 0;
   right: 25px;
@@ -8015,20 +8022,32 @@ footer .nav li a {
   color: #656565; }
 
 .list-invist {
-  list-style: none;
-  background: red; }
+  list-style: none; }
   .list-invist li {
     background-color: #1b1b1b;
     border-left: 3px solid #e71d7c;
     color: #fff;
     position: relative;
     overflow: hidden; }
+    .list-invist li span {
+      z-index: 1;
+      position: relative; }
     .list-invist li__text {
       font-size: 24px; }
       .list-invist li__text .number {
         font-size: 36px; }
-    .list-invist li::before {
-      content: ""; }
+    .list-invist li:hover:after {
+      width: 100%;
+      z-index: 0; }
+    .list-invist li::after {
+      content: "";
+      background: var(--bs-primary);
+      height: 100%;
+      position: absolute;
+      width: 0%;
+      transition: all 0.25s linear;
+      top: 0;
+      left: 0; }
 
 .videoWrapper {
   position: relative;
