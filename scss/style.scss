@@ -22,6 +22,7 @@
 @import "blocks/_price";
 @import "blocks/_single";
 @import "blocks/_blog";
+@import "blocks/_list-invist";
 
 
 
@@ -64,16 +65,4 @@
 }
 
 
-
-.list-invist{
-    list-style: none;
-   li {
-        background-color: #1b1b1b;
-        border-left:3px solid #e71d7c ;
-        color: #fff;;
-        &__text{ font-size: 24px;
-            .number{  font-size: 36px;}
-        } 
-       }
-    }
-
+ 
